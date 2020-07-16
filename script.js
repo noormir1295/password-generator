@@ -29,7 +29,7 @@ if (passwordLength < 8) {
 for(var i = 0; passwordLength < 8; i++){
     passwordLength = prompt("How many characters will be in your password?"); 
     if(passwordLength < 8){
-        alert("You must have at least 8 charcters in your password.");
+        alert("You must have at least 8 characters in your password.");
         }
     }
 }
